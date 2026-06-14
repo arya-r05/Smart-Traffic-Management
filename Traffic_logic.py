@@ -2,7 +2,7 @@ import cv2
 import os
 from ultralytics import YOLO
 
-# 1. Load the AI Model
+# Load the AI Mode
 model = YOLO('yolov8n.pt')
 
 def analyze_lane(image_path, direction):
